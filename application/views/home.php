@@ -62,7 +62,7 @@
                         <a href="<?php echo base_url("enquiry/view/$enquiry->enquiry_id") ?>">
                             <div class="mail-contnet">
                                 <h5><?php echo $enquiry->name; ?></h5>
-                                <span class="mail-desc"><?php echo character_limiter(strip_tags($enquiry->enquiry),70); ?></span>  </div>
+                                <span class="mail-desc"><?php echo character_limiter(strip_tags($enquiry->enquiry), 160); ?></span>  </div>
                         </a> 
                         <?php } ?>
                     <?php } ?>
